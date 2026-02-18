@@ -1,0 +1,158 @@
+h1{
+    color: blue;
+}
+#test{
+    color: green;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: line-through;
+}
+#test2{
+    color: green;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: line-through;
+}
+.news
+{
+ color: aquamarine;
+ font-size: 16px;
+ font-style: normal;
+ text-decoration: dotted;
+}
+h4{
+    color: blueviolet;
+    font-size: 18px;
+}
+*{
+    font-family: cursive;
+}
+.username{
+    width: 100px;
+    height: 25px;
+    border: 1px solid transparent;
+    color: green;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    border-radius: 10px;
+    outline: none;
+    caret-color: orange;
+    background-color: aliceblue;
+    padding: 8px;
+    transition: background-color 1s;
+
+}
+.username::placeholder{
+    color: palevioletred;
+    font-style: normal;
+}
+
+.username:hover{
+    background-color: wheat;
+    color: purple;
+}
+
+.username:focus{
+    border-color: yellow;
+
+}
+
+.section1{
+    width: 500px;
+    height: 800px;
+    background-image: url(../images/screenshot.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+
+.container
+{
+  display: flex; 
+  justify-content: space-around;
+  flex-wrap: wrap;  
+  row-gap: 20px;
+  flex-direction: row;
+  flex-direction: row;
+  
+}
+
+.card
+{
+    width: 500px;
+    height: 600px;
+    background-color: wheat;
+    box-shadow: 0px 0px 4px 4px #f1f1f1;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+
+.login
+{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(https://t3.ftcdn.net/jpg/05/88/24/10/360_F_588241010_cdQJ2QTsyDtt36jZsAFR45aAXICnPAzR.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.loginform
+{
+    width: 40%;
+    height: 50vh;
+    background-color: gray;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+.userid
+{
+    width: 300px;
+    height: 30px;
+    border:  1px solid #cdcdcd;
+    outline: none;
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.loginbtn
+{
+    background-color: #13a4cc;
+    color: white;
+    font-size: 14px;
+    border: 1px solid #efefef;
+    border-radius: 10px;
+    padding: 8px;
+    height: 65px;
+    width: 336px;
+    cursor: pointer;
+}
+
+.logintxt
+{
+    color: white;
+
+}
+
+@media screen  and (max-width: 700px){
+    .card{
+        background-color: #ba6868;
+    }
+
+}
+    
